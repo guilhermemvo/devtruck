@@ -68,6 +68,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  .state('app.cartao-digital', {
+    url: '/cartao-digital',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/cartao-digital.html'
+      }
+    }
+  })
+
   .state('app.boleto', {
     url: '/boleto',
     views: {
