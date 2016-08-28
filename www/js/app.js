@@ -41,6 +41,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  .state('app.consultas-show', {
+    url: '/consultas-show',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/consultas-show.html'
+      }
+    }
+  })
+
   .state('app.boleto', {
     url: '/boleto',
     views: {
