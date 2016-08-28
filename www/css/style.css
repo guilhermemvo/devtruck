@@ -1,1 +1,14 @@
 /* Empty. Add your own CSS if you like */
+
+.item-1 .item-content {
+   background-color: green !important;
+}
+
+.item-2 .item-content {
+   background-color: #47b947 !important;
+}
+
+.item-3 .item-content {
+   background-color: green !important;
+}
+
