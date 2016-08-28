@@ -104,6 +104,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  .state('app.cadastro', {
+    url: '/cadastro',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/cadastro.html'
+      }
+    }
+  })
+
   .state('app.search', {
     url: '/search',
     views: {
