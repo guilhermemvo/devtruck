@@ -41,6 +41,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  .state('app.boleto', {
+    url: '/boleto',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/boleto.html'
+      }
+    }
+  })
+
   .state('app.search', {
     url: '/search',
     views: {
