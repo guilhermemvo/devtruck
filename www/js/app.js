@@ -86,6 +86,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  .state('app.medico-detalhes', {
+    url: '/medico-detalhes',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/medico-detalhes.html'
+      }
+    }
+  })
+
   .state('app.boleto', {
     url: '/boleto',
     views: {
