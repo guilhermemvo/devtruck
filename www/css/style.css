@@ -4,6 +4,26 @@
   background-color: #4acc80;
 }
 
+.bar {
+  height: 48px;
+}
+
+.bar-header {
+  border-bottom-width: 0;
+}
+
+.bar.bar-header {
+  background-color: #009a64;
+}
+
+.bar.bar-stable .button.button-clear {
+  color: #FFF;
+}
+
+.bar.bar-stable .title {
+  color: #FFF;
+}
+
 
 /* MAIN MENU */
 
