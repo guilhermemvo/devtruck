@@ -1,6 +1,18 @@
 /* Empty. Add your own CSS if you like */
 
-.consultas-list .item-content {
-  background-color: green !important;
+.home-view {
+  background-color: #6cd51b;
 }
 
+
+/* MAIN MENU */
+
+.main-menu-item .item-content {
+  color: #fff;
+  padding: 25px 20px;
+}
+
+.main-menu-item.a .item-content { background-color: #63ba1c; }
+.main-menu-item.b .item-content { background-color: #4aa90e; }
+.main-menu-item.c .item-content { background-color: #278905; }
+.main-menu-item.item:last-child { border-bottom: none; }

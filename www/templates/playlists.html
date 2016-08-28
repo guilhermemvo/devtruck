@@ -1,11 +1,20 @@
-<ion-view view-title="Unimed">
+<ion-view class="home-view" view-title="Unimed Maringá">
   <ion-content>
+    <div class="card">
+      <div class="item item-text-wrap">
+        This is a basic Card which contains an item that has wrapping text.
+      </div>
+    </div>
+
     <ion-list>
-      <ion-item href="#/app/consultas" class="consultas-list">
+      <ion-item href="#/app/consultas" class="main-menu-item a">
         Consultas & Exames
       </ion-item>
-       <ion-item href="#/app/boleto" class="consultas-list">
-        Boletos
+      <ion-item href="#/app/boleto" class="main-menu-item b">
+        Cartão Digital
+      </ion-item>
+      <ion-item href="#/app/boleto" class="main-menu-item c">
+        Guia Médico
       </ion-item>
     </ion-list>
   </ion-content>
