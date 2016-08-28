@@ -77,6 +77,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  .state('app.guia-medico', {
+    url: '/guia-medico',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/guia-medico.html'
+      }
+    }
+  })
+
   .state('app.boleto', {
     url: '/boleto',
     views: {
