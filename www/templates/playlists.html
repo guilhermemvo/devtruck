@@ -1,11 +1,7 @@
 <ion-view class="home-view" view-title="Unimed Maringá">
   <ion-content>
 
-    <!--
-    <div class="item item-body">
-      <img class="full-image" src="../img/unimed.png">
-    </div>
-    -->
+    <!-- <div><img class="full-image" src="../img/unimed.png"></div> -->
 
     <div class="card">
       <div class="item item-text-wrap">
@@ -14,16 +10,19 @@
       </div>
     </div>
 
-    <ion-list>
-      <ion-item href="#/app/consultas" class="main-menu-item a item-icon-left">
+    <div class="list list-inset fontHome">
+      <a href="#/app/consultas" class="item item-icon-left">
         <i class="icon ion-ios-pulse-strong"></i> Consultas & Exames
-      </ion-item>
-      <ion-item href="#/app/cartao-digital" class="main-menu-item b item-icon-left">
+      </a>
+      <a href="#/app/guia-medico" class="item item-icon-left">
+        <i class="icon ion-ios-pulse-strong"></i> Serviços<i class="icon ion-ios-pulse-strong"></i> Guia
+      </a>
+      <a href="#/app/cartao-digital" class="item item-icon-left">
         <i class="icon ion-card"></i> Cartão Digital
-      </ion-item>
-      <ion-item href="#/app/guia-medico" class="main-menu-item c item-icon-left">
+      </a>
+      <a href="#/app/guia-medico" class="item item-icon-left">
         <i class="icon ion-ios-search-strong"></i> Guia Médico
-      </ion-item>
-    </ion-list>
+      </a>
+    </div>
   </ion-content>
 </ion-view>

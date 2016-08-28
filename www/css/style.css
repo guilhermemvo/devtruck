@@ -1,7 +1,7 @@
 /* Empty. Add your own CSS if you like */
 
 .home-view {
-  background-color: #6cd51b;
+  background-color: #4ece77;
 }
 
 
@@ -12,11 +12,6 @@
   padding: 25px 20px;
 }
 
-.main-menu-item.a .item-content { background-color: #63ba1c; }
-.main-menu-item.b .item-content { background-color: #4aa90e; }
-.main-menu-item.c .item-content { background-color: #278905; }
-.main-menu-item.item:last-child { border-bottom: none; }
-
 .boleto {
 	background: CornflowerBlue;
 }
@@ -25,4 +20,6 @@
 	color: white;
 }
 
-.main-menu-item {}
+.fontHome {
+	color: #8b969b;
+}
