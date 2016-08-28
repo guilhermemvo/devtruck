@@ -16,3 +16,15 @@
 .main-menu-item.b .item-content { background-color: #4aa90e; }
 .main-menu-item.c .item-content { background-color: #278905; }
 .main-menu-item.item:last-child { border-bottom: none; }
+
+.boleto {
+	background: CornflowerBlue;
+}
+
+.white {
+	color: white;
+}
+
+.boletoData {
+	text-align: right;
+}

@@ -1,17 +1,25 @@
 <ion-view view-title="Boleto">
 	<ion-content>
-		<div class="item item-text-wrap">
-				<div class="row">
-					<h1 class="title">R$390,00</h1>
-				</div>
-				<div class="row">
-					<h2 class="title">Vencimento 05 SET</h2>
-				</div>
-				<div class="row">
-					<h6 class="title"><b>FECHAMENTO EM 29 AGO</b></h6>
-				</div>
+		<div class="item item-text-wrap boleto">
+			<h1 class="white">R$390,00</h1>
+			<h2 class="white">Vencimento 05 SET</h2>
+			<h6 class="white"><b>FECHAMENTO EM 29 AGO</b></h6>
 		</div>
-		<button class="button button-small boletoButton">Block Button</button>
-	</ion-content>
+
+		<div class="item item-divider">
+			Pagos
+		</div>
+
+		<a class="item" href="#/app/consultas-show-historico">
+		Consulta no cardiologista <div class="boletoData">03/06/2016</div>
+			<small style="color: #585858;">Dr. José Marco Polo</small>
+		</a>
+
+		<a class="item" href="#/app/consultas-show-historico">
+			<strong>03/06/2016</strong> - Consulta na nutrologa<br />
+			<small style="color: #585858;">Dr. Marta Suplicy</small>
+		</a>
+	</div>
+</ion-content>
 </ion-view>
 
