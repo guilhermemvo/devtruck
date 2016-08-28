@@ -59,6 +59,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  .state('app.consulta-new', {
+    url: '/consulta-new',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/consulta-new.html'
+      }
+    }
+  })
+
   .state('app.boleto', {
     url: '/boleto',
     views: {
